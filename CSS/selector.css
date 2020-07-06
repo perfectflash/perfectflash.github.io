@@ -1,0 +1,48 @@
+body {
+    background-image: url(../img/bg1.jpg)
+}
+
+@font-face {
+    font-family: "Noto-regular";
+    src: url("fonts/Noto/NotoSansJP-Regular.otf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Noto-light";
+    src: url("fonts/Noto/NotoSansJP-Light.otf");
+    font-weight: 200;
+}
+
+
+
+
+
+h1 {
+    color: crimson;
+    font-family: "Noto-regular";
+    margin: 20px;
+}
+h2 {
+    color: green;
+    font-family: "Noto-light";
+    margin: 20px;
+}
+a {
+    color: dodgerblue;
+    font-size: 20px;
+}
+.login-div {
+    padding: 15px;
+    border: solid 1px;
+    box-shadow: 0 0 3px;
+    display: inline-block;
+}
+
+.login-div input {
+display: block;
+margin-bottom: 10px;
+}
+
+.login-div button:hover{
+    box-shadow: 3px 3px 5px;
+}
